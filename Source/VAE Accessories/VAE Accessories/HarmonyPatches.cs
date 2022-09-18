@@ -71,9 +71,7 @@ namespace VAE_Accessories
             {
                 var apparel = __instance.apparel.WornApparel[i];
                 if (apparel.TryGetComp<CompExplodeOnDeath>() is CompExplodeOnDeath comp)
-                {
                     comp.ExplodeOnDeath(__instance);
-                }
                 else if (apparel is ResurrectorBelt)
                 {
                     UtilityMethods.ResurrectBeforeDeath(__instance);
