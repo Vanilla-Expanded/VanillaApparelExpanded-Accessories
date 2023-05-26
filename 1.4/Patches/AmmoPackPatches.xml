@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[contains(weaponTags,'Gun') and not(specificApparelRequirements)]</xpath>
+		<value>
+			<specificApparelRequirements>
+				<li>
+					<bodyPartGroup>Waist</bodyPartGroup>
+					<apparelLayer>Belt</apparelLayer>
+					<alternateTagChoices>
+						<li>
+							<tag>VAEA_AmmoPack</tag>
+							<chance>0.1</chance>
+						</li>
+					</alternateTagChoices>
+				</li>
+			</specificApparelRequirements>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[contains(weaponTags,'Gun') and specificApparelRequirements]/specificApparelRequirements</xpath>
+		<value>
+			<li>
+				<bodyPartGroup>Waist</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>VAEA_AmmoPack</tag>
+						<chance>0.1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</value>
+	</Operation>
+</Patch>
