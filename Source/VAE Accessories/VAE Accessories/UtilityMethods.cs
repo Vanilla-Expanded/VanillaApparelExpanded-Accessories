@@ -22,7 +22,7 @@ namespace VAE_Accessories
             if (pawn.apparel != null)
             {
                 var wornApparel = pawn.apparel.WornApparel;
-                for (var j = 0; j < wornApparel.Count; j++) wornApparel[j].Notify_PawnResurrected();
+                for (var j = 0; j < wornApparel.Count; j++) wornApparel[j].Notify_PawnResurrected(pawn);
             }
 
             PawnDiedOrDownedThoughtsUtility.RemoveDiedThoughts(pawn);
