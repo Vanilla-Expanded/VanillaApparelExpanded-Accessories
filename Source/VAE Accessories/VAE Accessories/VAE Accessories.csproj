@@ -50,7 +50,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CaravanCapacityApparelDef.cs" />
     <Compile Include="Comps\CompExplodeOnDeath.cs" />
     <Compile Include="Comps\CompProperties_ExplodeOnDeath.cs" />
     <Compile Include="HarmonyPatches.cs" />
@@ -60,8 +59,9 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Lib.Harmony">
-      <Version>2.2.2</Version>
+      <Version>2.3.3</Version>
       <ExcludeAssets>runtime;</ExcludeAssets>
+      <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

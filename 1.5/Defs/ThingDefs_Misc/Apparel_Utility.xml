@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VAE_Accessories.CaravanCapacityApparelDef ParentName="ApparelBase">
+	<ThingDef ParentName="ApparelBase">
 		<defName>VAEA_Apparel_Backpack</defName>
 		<label>backpack</label>
 		<description>A simple roomy backpack. Greatly increases the carry weight of the wearer.</description>
@@ -31,7 +31,6 @@
 			<li>Clothing</li>
 		</tradeTags>
 		<costStuffCount>50</costStuffCount>
-		<carryingCapacity>50</carryingCapacity>
 		<equippedStatOffsets>
 			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
@@ -134,7 +133,7 @@
 				</fat>
 			</wornGraphicData>
 		</apparel>
-	</VAE_Accessories.CaravanCapacityApparelDef>
+	</ThingDef>
 	<ThingDef ParentName="ApparelBase">
 		<defName>VAEA_Apparel_BattleBanner</defName>
 		<label>battle banner</label>
