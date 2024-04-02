@@ -32,6 +32,9 @@
 		</tradeTags>
 		<costStuffCount>50</costStuffCount>
 		<carryingCapacity>50</carryingCapacity>
+		<equippedStatOffsets>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
 		<graphicData>
 			<texPath>Things/Apparel/Backpack/Backpack</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
