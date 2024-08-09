@@ -14,8 +14,10 @@ namespace VAE_Accessories
                 if (pawn.workSettings != null) pawn.workSettings.EnableAndInitialize();
                 Find.StoryWatcher.watcherPopAdaptation.Notify_PawnEvent(pawn, PopAdaptationEvent.GainedColonist);
             }
-
-            for (var i = 0; i < 10; i++) FleckMaker.ThrowAirPuffUp(pawn.DrawPos, pawn.Map);
+            if (pawn.Map != null)
+            {
+                for (var i = 0; i < 10; i++) FleckMaker.ThrowAirPuffUp(pawn.DrawPos, pawn.Map);
+            }
             if (pawn.Faction != null && pawn.Faction != Faction.OfPlayer && pawn.HostileTo(Faction.OfPlayer))
                 LordMaker.MakeNewLord(pawn.Faction, new LordJob_AssaultColony(pawn.Faction), pawn.Map,
                     Gen.YieldSingle(pawn));
