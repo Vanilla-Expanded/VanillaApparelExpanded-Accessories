@@ -12,7 +12,8 @@ namespace VAE_Accessories
 
         public void ExplodeOnDeath(Pawn pawn)
         {
-            GenExplosion.DoExplosion(pawn.Position, pawn.Map, Props.explosionRadius, Props.damageDef, pawn);
+            if (pawn.Map != null)
+                GenExplosion.DoExplosion(pawn.Position, pawn.Map, Props.explosionRadius, Props.damageDef, pawn);
         }
     }
 }
