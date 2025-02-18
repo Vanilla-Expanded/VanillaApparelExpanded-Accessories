@@ -23,7 +23,7 @@ namespace VAE_Accessories
             for (var i = __instance.apparel.WornApparel.Count - 1; i >= 0; --i)
             {
                 var apparel = __instance.apparel.WornApparel[i];
-                if (apparel.TryGetComp<CompExplodeOnDeath>() is CompExplodeOnDeath comp)
+                if (apparel.GetComp<CompExplodeOnDeath>() is CompExplodeOnDeath comp)
                     comp.ExplodeOnDeath(__instance);
                 else if (apparel is ResurrectorBelt)
                 {
