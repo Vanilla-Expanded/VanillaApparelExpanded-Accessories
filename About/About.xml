@@ -7,6 +7,7 @@
 		<li>1.4</li>
 		<li>1.5</li>
 	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
 	<packageId>VanillaExpanded.VAEAccessories</packageId>
 	<description>Vanilla Apparel Expanded - Accessories is a new installment in the Vanilla Expanded series. This time, our sight fell onto the accessories system, which is quite heavily limited in vanilla game. Smokepop belt, or Shield belt - these are your only choices. Are you rich enough to sport Royalty in your game? You MIGHT be able to build jet packs too! And Broadshield generators.
 
