@@ -16,6 +16,11 @@ Your tribal archers will now be twice as efficient with quivers, while your cons
 
 Vanilla Apparel Expanded is part of a series of mods expanding on everyday life on the Rimworld. When paired together with a brand new Vanilla Weapons Expanded and Vanilla Armours Expanded, you can bring something to your game that will keep you interested in it for days.</description>
 	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>brrainz.harmony</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	</loadAfter>
 	<modDependencies>
@@ -28,7 +33,8 @@ Vanilla Apparel Expanded is part of a series of mods expanding on everyday life 
 		<li>
 			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
 			<displayName>Vanilla Expanded Framework</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
 		</li>
 	</modDependencies>
 </ModMetaData>
