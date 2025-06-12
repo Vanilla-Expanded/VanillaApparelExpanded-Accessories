@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Medieval</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[@Name="VFEM_MedievalPawnKindBase"]/modExtensions/li[@Class="VFECore.PawnKindDefExtension"]/factionColourApparelPartList</xpath>
+					<value>
+						<li>Torso</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[@Name="VFEM_MedievalPawnKindBase"]/modExtensions/li[@Class="VFECore.PawnKindDefExtension"]/factionColourApparelLayerList</xpath>
+					<value>
+						<li>Belt</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
