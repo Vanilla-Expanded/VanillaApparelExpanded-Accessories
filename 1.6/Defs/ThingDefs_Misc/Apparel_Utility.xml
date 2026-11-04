@@ -1075,7 +1075,7 @@
 	</ThingDef>
 	<ThingDef ParentName="ApparelBase">
 		<defName>VAEA_Apparel_RessurectorBelt</defName>
-		<label>ressurector belt</label>
+		<label>resurrector belt</label>
 		<description>A belt containing a dose of resurrector serum. Injects the serum immediately after death.</description>
 		<thingClass>VAE_Accessories.ResurrectorBelt</thingClass>
 		<techLevel>Ultra</techLevel>
